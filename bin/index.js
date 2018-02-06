@@ -6,8 +6,7 @@ server.listen(3000);
 
 server.on('listening', () => {
   console.log(
-    `Misu is listening on port:${server.address().port} in ${service.get(
-      'env'
-    )} mode.`
+    `Misu is listening on port:${server.address().port} 
+    in ${service.get('env')} mode.`
   );
 });
